@@ -1,0 +1,41 @@
+new-note-container {
+  font-family: indie flower;
+}
+
+textarea, input {
+  width: 100%;
+}
+
+form {
+  margin-top:8em;
+  font-family: indie flower;
+}
+
+input {
+  color: black;
+  font-weight: bold;
+  border-top: 1px lightblue solid;
+  border-bottom: 1px lightblue solid;
+  border-left: 1px red solid;
+  border-right: none;
+  padding-left: .5em;
+}
+
+textarea {
+  color: grey;
+  border-top: 1px lightblue solid;
+  border-bottom: 1px lightblue solid;
+  border-left: 1px red solid;
+  border-right: none;
+  padding-left: .5em;
+}
+
+.error {
+  color: red;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
